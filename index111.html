@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="port.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <video autoplay loop muted plays-inline class="back-vid">
+    <source src="galaxy.mp4" type="video/mp4">
+  </video>
+  <section class="main-section">
+    <nav>
+      <h1 data-aos="zoom-in" data-aos-duration="1000"><span style="color: #4acfee;">Mariam </span>Shaik</h1>
+      <ul>
+        <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a  href="index.html">Home </a></li>
+        <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a class="active" href="#">About</a></li>
+        <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#">Projects</a></li>
+        <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="index222.html">skills</a></li>
+        <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="index333.html">Content</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero">
+      <div class="hero-info">
+        <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">Hi, I'm Mariam</h1>
+        <h2 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900"></h2>
+        <p data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1000">As a dedicated computer science student, I am committed to continuous learning and personal growth. I pride myself on being responsible and organized, always striving to stay ahead in both stable and fast-evolving work environments. My goal is to leverage my technical skills and adaptability to contribute meaningfully to the organization, while actively applying new knowledge to drive value and innovation.</p>
+        <div class="Buttons">
+            <a href="index.html"><button class="btn" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="1100">BACK</button></a>
+        
+        </div>
+      </div>
+
+      <div class="hero-img" data-aos="zoom-in-left" data-aos-duration="2500">
+        <img src="mariam.jpg" alt="person-img" >
+      </div>
+    </div>
+
+   
+      
+    </div>
+  </section>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCz_Vax1Rvvk6TIuTxj2xBbS_ELxCG1H0E",
+      authDomain: "mariam-portfolio-fdf28.firebaseapp.com",
+      projectId: "mariam-portfolio-fdf28",
+      storageBucket: "mariam-portfolio-fdf28.firebasestorage.app",
+      messagingSenderId: "383932957178",
+      appId: "1:383932957178:web:56b4b23dc60e1543d5a443",
+      measurementId: "G-TPSX5XSBM7"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</body>
+
+
+</html>
